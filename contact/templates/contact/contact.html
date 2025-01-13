@@ -1,0 +1,52 @@
+<!-- contact/templates/contact/contact.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="fname" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="fname" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col-md-6">
+    <label for="lname" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="lname" placeholder="Last name" aria-label="Last name">
+  </div>
+  <div class="col-md-6">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="col-md-6">
+    <label for="phone" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="phone">
+  </div>
+  <div class="col-md-6">
+    <label for="inquiry" class="form-label">Project/Service Inquiry</label>
+    <select id="inquiry" class="form-select">
+      <option selected>Choose...</option>
+      <option>Website Design</option>
+      <option>Graphic Design</option>
+      <option>Branding</option>
+      <option>Development</option>
+      <option>Other (please specify)</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="how" class="form-label">How did you hear about us?</label>
+    <select id="how" class="form-select">
+      <option selected>Choose...</option>
+      <option>Google Search</option>
+      <option>Referral</option>
+      <option>Social Media</option>
+      <option>Other (please specify)</option>
+    </select>
+  </div>
+  <div class="col-12">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" id="message" rows="10"></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+{% endblock page_content %}
