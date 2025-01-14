@@ -7,7 +7,7 @@ A project portfolio application built with Django and styled using Bootstrap. Th
 - **Admin Panel**: Provides an admin interface for adding and managing projects.
 - **Bootstrap Styling**: Clean and responsive design using Bootstrap.
 - **Django Backend**: The app is powered by Django, offering a solid backend for handling data.
-- **Search Functionality**: Allows users to search for projects by name or description.
+- **Search Functionality**: Allows users to search for projects by title.
 - **Email Sending**: Enables sending emails, e.g., for project inquiries or notifications.
 
 ## Technologies Used
